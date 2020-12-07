@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="https://developer.rebble.io/developer.pebble.com/assets/images/guides/pebble-apps/display-animations/letter-c.png">
+  
+    
+    <script src="../domscript.js"></script>
+    <script src="../movie-data.json"></script>
+    
+    <title>CRUNCH</title>
+</head>
+<body>
+    <div class="navBar">
+         
+        <button id="moviesbutton"    onclick="getAccountMovies()"    class="usernav"> Movies</button>
+        <button id="showsbutton"     onclick="getAccountPeople()"    class="usernav"> People</button>
+        <button id="watchlistbutton" onclick="getAccountWatchlist()" class="usernav"> Watchlist</button>
+        <button id="friendsbutton"   onclick="getAccountFriends()"   class="usernav"> Friends</button>
+        <button id="settingsbutton"  onclick="getAccountSettings()"  class="usernav"> Settings</button>
+        <button id="logoutbutton"    onclick="logoutAccount()"       class="usernav"> Logout</button>
+        </div>
+
+
+    <header id="showcase" class="showcase">
+        <div class="showcase-content">
+            <input type="text" name="" id="search" placeholder=" what are you looking for?">
+            <button id="searchbutton" class="searchbutton" onclick="performMovieSearch()"> SEARCH</button>
+        </div>        
+    </header>
+
+    <div id="movieview" class="movieview">
+            
+    </div>
+
+<script>
+
+</script>
+</body>
+</html>

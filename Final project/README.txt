@@ -1,0 +1,19 @@
+STUDENT NAME  : JOSHUA OBIHA
+STUDENT NUMBER: 101043029
+
+1.
+
+
+INSTALLATION- IN ORDER TO RUN THIS PROGRAM, YOU NEED THE FOLLOWING INSTALLED:
+
+    EXPRESS           - npm install express
+    EXPRESS SESSION   - npm install express-session
+    PUG/JADE          - npm install pug
+
+
+
+
+
+
+PROJECT REPORT INCLUDED AS A PDF 
+
